@@ -1,7 +1,7 @@
 import random
 
 # Load a dictionary of 5-letter words
-with open('all_wordle_words.txt', 'r') as f:
+with open(r'D:\Sharan\Py-projects\wordle-bot\all_wordle_words.txt', 'r') as f:
     wordlist = [line.strip() for line in f]
 english_words_alpha = wordlist.copy()
 english_words_alpha_set = set(english_words_alpha)
